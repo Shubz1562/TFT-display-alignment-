@@ -1,4 +1,6 @@
-CODE= #include <TFT_eSPI.h>
+CODE=
+
+#include <TFT_eSPI.h>
 
 TFT_eSPI tft = TFT_eSPI();
 
@@ -58,7 +60,9 @@ void setup() {
 void loop() {
 }
 
+
 platformio.ini=
+
 [env:esp32dev]
 platform = espressif32
 board = esp32dev
